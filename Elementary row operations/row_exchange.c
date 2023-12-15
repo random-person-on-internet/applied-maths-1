@@ -14,7 +14,7 @@ int main()
 
     // take input for matrix
     int matrix[m][n];
-    matirx_input(m, n, matrix);
+    matrix_input(m, n, matrix);
 
     // main logic
     int dest, tar;
@@ -28,11 +28,12 @@ int main()
 
     // tar and dest can be used interchangeably as both will be exchanged anyways
 
+    int temp;
     for (int i = 0; i < n; i++)
     {
-        int temp = matrix[dest][i];
-        matrix[dest][i] = matrix[tar][i];
-        matrix[tar][i] = temp;
+        temp = matrix[dest - 1][i];
+        matrix[dest - 1][i] = matrix[tar - 1][i];
+        matrix[tar - 1][i] = temp;
 
         /* How it works? it changes numbers column wise no need to add more than one loop for this one*/
     }

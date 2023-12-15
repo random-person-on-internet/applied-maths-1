@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "matrix_basics.h"
 
-int matirx_input(int m, int n, int matrix[m][n])
+int matrix_input(int m, int n, int matrix[m][n])
 {
     for (int i = 0; i < m; i++)
     {
