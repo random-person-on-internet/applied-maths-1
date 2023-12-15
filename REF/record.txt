@@ -1,0 +1,18 @@
+matrix input - done and checked
+matrix output - done and checked
+
+row swap - done and checked
+row multiplication - done and checked
+row division - done and checked
+row subtraction - done and checked
+
+row echelon form
+    identify zero row and put it at end - done and checked
+    find pivot worthy row and get it on top - done and checked
+    get pivot and make all numbers below it zero - done and checked
+
+reduced row echelon form
+    make all numbers above pivots zero
+
+taking input of rows and columns considering multiple kind of errors in input - done and checked
+asking user for confirmation - done and checked
